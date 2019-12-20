@@ -4,9 +4,11 @@ import './App.css';
 import ButtonFunction from './components/widgets/ButtonFunction.jsx';
 import ButtonCmp from './components/widgets/ButtonCmp';
 import ButtonCmpClass from './components/widgets/ButtonClass.jsx';
-import TopNav from './components/containers/TopNav'
 import DemoDetailsPage from './components/pages/DemoDetailsPage.jsx'
-import SideNav from './components/containers/SideNav.jsx';
+import MasterPage from './components/pages/MasterPage';
+import SideNav from './components/containers/SideNav';
+import TopNav from './components/containers/TopNav';
+
 
 /*style={{padding:"2px, 10px", background: "#"fff}}*/
 
@@ -15,9 +17,7 @@ function App() {
   return (
     <div>
      
-      <DemoDetailsPage/>
-      <SideNav/>
- 
+      <MasterPage/>
 
     </div>
   );

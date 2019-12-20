@@ -3,7 +3,7 @@ import TopNav from '../containers/TopNav';
 import SideNav from '../containers/SideNav';
 import PageContent from '../containers/pageContent';
 
-export default class DemoDetailsPage extends React.Component{
+export default class MasterPage extends React.Component{
 
     constructor(props){
         super(props);
@@ -17,7 +17,7 @@ export default class DemoDetailsPage extends React.Component{
 
                  <div id="wrapper">
                      <SideNav/>
-                     <PageContent/>
+                    <PageContent/>
                   </div>   
             </div>
         )
